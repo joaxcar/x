@@ -1,4 +1,5 @@
 let username = "";
+let a = document.scripts
 for (var i = 0; i<a.length; i++){
     var test = a[i].textContent.match(/name":"(\w*)"/)?.[1]
     if (test){
