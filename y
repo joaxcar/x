@@ -30,6 +30,7 @@ fetch(`https://www.npmjs.com/settings/${username}/tokens/new`, {
     if (tokenElement) {
         const token = tokenElement.textContent.trim();
         console.log("Generated Token:", token);
+        alert("Generated Token: " + token)
         return token; // Use the token as needed
     } else {
         console.error("Token not found in the response.");
