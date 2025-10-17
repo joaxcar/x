@@ -1,0 +1,2 @@
+<form data-turbo=false class="js-auto-replay-enforced-sso-request" action="/orgs/joaxcar-hack-org1/projects/2/insights?filterQuery=#ccc"><input name="filterQuery"></form>
+<div class="js-minimize-container"><form class="js-timeline-comment-minimize js-auto-replay-enforced-sso-request" action="/joaxcar/x/commit/d14e7.patch"></form></div>
